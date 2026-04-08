@@ -38,7 +38,7 @@ export default function Navbar() {
             </button>
           </div>
 
-          <div className="lg:hidden">
+          <div className="md:hidden">
             <button onClick={() => setIsOpen(!isOpen)} className="p-2 text-brand-dark">
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>

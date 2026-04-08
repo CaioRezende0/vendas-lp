@@ -18,7 +18,7 @@ export default function Comparison() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] gap-8 lg:gap-12 items-center">
           <motion.div 
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -52,7 +52,7 @@ export default function Comparison() {
             </ul>
           </motion.div>
 
-          <div className="flex justify-center md:rotate-90">
+          <div className="flex justify-center md:rotate-0">
             <div className="w-16 h-16 rounded-full bg-brand-pink/10 flex items-center justify-center text-brand-pink animate-bounce">
               <ArrowRight size={32} />
             </div>
